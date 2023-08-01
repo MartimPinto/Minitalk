@@ -16,14 +16,26 @@ The Minitalk project consists of creating a client-server program that allows tw
 ``` bash
 git@github.com:MartimPinto/Minitalk.git Minitalk
 ```
-#### 2nd - Enter the library folder and run Make
+#### 2nd - Enter the project folder and run Make or Make bonus
 ``` bash
-cd ft_printf/src
+cd Minitalk
+
 make
+
+or
+
+make bonus
 ```
-#### 3rd - Include the header in your .c file
-``` c
-#include "ft_printf.h"
+#### 3rd - Run server or server_bonus and copy its PID
+```bash
+./server
+./server_bonus
+```
+
+#### 4th - Open another terminal, run client or client_bonus, paste the PID and write a message
+```bash
+./client [SERVER PID] [MESSAGE]
+./client_bonus [SERVER PID] [MESSAGE] [EMOTE]
 ```
 ## Norme
 
